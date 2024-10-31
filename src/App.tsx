@@ -1,12 +1,13 @@
 import React from 'react'
-import TodoList from './components/TodoList'
+import './App.css'
+import TodoList from './components/todoList/TodoList'
 import InputForm from './components/InputForm'
 
 export default function App() {
   return (
-    <div>
-      <InputForm></InputForm>
+    <div className="app">
       <TodoList></TodoList>
+      <InputForm></InputForm>
     </div>
   )
 }
