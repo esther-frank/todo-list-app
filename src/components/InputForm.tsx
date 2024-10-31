@@ -16,16 +16,15 @@ export default function InputForm() {
 
   return (
     <form onSubmit={handleClick}>
-      <label>
-        What do you need to get done?
-        <input
-          type="text"
-          value={newTask}
-          onChange={e => {
-            setNewTask(e.target.value)
-          }}
-        />
-      </label>
+      <label htmlFor="new-task">What do you need to get done?</label>
+      <input
+        id="new-task"
+        type="text"
+        value={newTask}
+        onChange={e => {
+          setNewTask(e.target.value)
+        }}
+      />
       <input type="submit" value="ADD TASK" />
     </form>
   )
