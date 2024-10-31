@@ -10,10 +10,21 @@
   color: #002147;
 }
 
+label {
+    font-size: 1.1rem;
+}
+
 .form-input {
     display: flex;
     flex-direction: row;
     gap: 5px;
+}
+
+#new-task {
+    border: none;
+    border-radius: 5px;
+    color: #f8fbff;
+    background-color: #002147;
 }
 
 #submit-button {

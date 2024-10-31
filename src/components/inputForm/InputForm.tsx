@@ -13,6 +13,7 @@ export default function InputForm() {
   const handleClick = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
     dispatch(addTodo({ id: Date.now(), title: newTask, complete: false }))
+    setNewTask('')
   }
 
   return (

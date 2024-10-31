@@ -6,8 +6,8 @@ import InputForm from './components/inputForm/InputForm'
 export default function App() {
   return (
     <div className="app">
-      <TodoList></TodoList>
       <InputForm></InputForm>
+      <TodoList></TodoList>
     </div>
   )
 }
