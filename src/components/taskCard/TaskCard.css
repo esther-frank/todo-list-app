@@ -1,7 +1,10 @@
 .task-card {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     border-radius: 5px;
+    box-sizing: border-box;
     width: 100%;
+    padding: 10px 15px;
+    background-color: #f8fbff;
+    color: #002147;
 }

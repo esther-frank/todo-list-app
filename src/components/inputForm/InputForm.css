@@ -1,0 +1,26 @@
+.form-element {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 16px 24px;
+  background-color: #f8fbff;
+  color: #002147;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#submit-button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #002147;
+    color: #f8fbff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
