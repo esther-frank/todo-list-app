@@ -21,7 +21,9 @@ export default function TaskCard({ id, title, complete }: TodoItem) {
   return (
     <div className="task-card" id={`${id}`}>
       <input type="checkbox" checked={complete} onChange={handleChange} />
-      <p>{title}</p>
+      <p style={{ textDecoration: complete ? 'line-through' : 'none' }}>
+        {title}
+      </p>
     </div>
   )
 }
